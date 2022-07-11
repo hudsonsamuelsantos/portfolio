@@ -1,3 +1,0 @@
-# Portfólio pessoal de projetos
-
-Projeto em desenvolvimento...
