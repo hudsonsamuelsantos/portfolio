@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+
+}
+
+a {
+    padding: 0.8rem;
+    text-decoration: none;
+}
