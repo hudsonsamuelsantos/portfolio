@@ -1,12 +1,12 @@
 import '../styles/Home.css'
+import { Presentation } from './ Presentation'
+
 
 export function Home() {
 
     return (
         <section className="Home">
-            <h1>Olá! Eu sou Hudson Santos <br />
-                <span>  Desenvolvedor Front-End</span>
-            </h1>
+            <Presentation />
         </section >
     )
 }
