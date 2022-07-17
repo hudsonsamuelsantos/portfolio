@@ -1,6 +1,10 @@
 * {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Ubuntu Mono', monospace;
-    color: black;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
+  color: black;
+}
+
+html {
+  background-color: darkgray;
 }

@@ -1,13 +1,23 @@
-header {
+.Header {
     display: flex;
-    gap: 4rem;
-    justify-content: center;
     align-items: center;
     background-color: darkgray;
+    font-size: xx-large;
+    padding: 1rem 0;
+}
 
+.Links {
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.Icon {
+    margin-left: 4rem;
 }
 
 a {
-    padding: 0.8rem;
     text-decoration: none;
 }
