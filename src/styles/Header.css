@@ -1,7 +1,6 @@
 .Header {
     display: flex;
     align-items: center;
-    background-color: darkgray;
     font-size: xx-large;
     padding: 1rem 0;
 }
