@@ -1,12 +1,19 @@
 .Presentation {
     display: flex;
+    justify-content: center;
+    width: 100%;
     align-items: center;
     margin-left: 4rem;
-    gap: 8rem;
+}
+
+.MyPresentation {
+    width: 50%;
 }
 
 .Social {
     display: flex;
+    width: 50%;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
@@ -29,6 +36,10 @@
     background-color: black;
     border: 3px solid black;
     border-radius: 0.8rem;
+}
+
+.SocialLinks a:hover {
+    background-color: forestgreen;
 }
 
 h1 {

@@ -3,10 +3,12 @@
     align-items: center;
     font-size: xx-large;
     padding: 1rem 0;
+    overflow: hidden;
 }
 
 .Links {
-    width: 100vw;
+    z-index: 1;
+    width: 100%;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -19,4 +21,10 @@
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: forestgreen;
 }
