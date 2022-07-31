@@ -34,8 +34,10 @@
     height: 4.5rem;
     color: white;
     background-color: black;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 0.8rem;
+    text-decoration: none;
+    transition: 0.6s;
 }
 
 .SocialLinks a:hover {
@@ -49,6 +51,7 @@ h1 {
 img {
     height: 20rem;
     border-radius: 9999px;
+    border: solid 3px white;
 }
 
 .title:after{
