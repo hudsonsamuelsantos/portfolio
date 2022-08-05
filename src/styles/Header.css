@@ -1,4 +1,4 @@
-.Header {
+.header {
     display: flex;
     align-items: center;
     font-size: xx-large;
@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-.Links {
+.links {
     z-index: 1;
     width: 100%;
     position: absolute;
@@ -15,7 +15,7 @@
     gap: 4rem;
 }
 
-.Icon {
+.icon {
     margin-left: 4rem;
 }
 

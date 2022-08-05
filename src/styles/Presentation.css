@@ -54,6 +54,10 @@ img {
     border: solid 3px white;
 }
 
+.title {
+    font-weight: 100;
+}
+
 .title:after{
     content: '|';
     margin-left: 5px;

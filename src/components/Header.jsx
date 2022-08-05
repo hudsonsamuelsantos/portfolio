@@ -1,19 +1,20 @@
 import { RocketLaunch } from 'phosphor-react'
+import { Link } from 'react-router-dom'
 
 import '../styles/Header.css'
 
 export function Header() {
 
     return (
-        <div className='Header'>
-            <RocketLaunch className='Icon' size={64} />
+        <header className='header'>
+            <RocketLaunch className='icon' size={64} />
 
-            <div className='Links'>
-                <a href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Projetos</a>
-                <a href="#">Contato</a>
-            </div>
-        </div>
+            <nav className='links'>
+                <Link to={"/"}>Home</Link>
+                <Link to={"/about"}>Sobre</Link>
+                <Link to={"/projects"}>Projetos</Link>
+                <Link to={"/contact"}>Contato</Link>
+            </nav>
+        </header>
     )
 }
