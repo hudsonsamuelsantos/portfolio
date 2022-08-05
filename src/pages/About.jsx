@@ -1,8 +1,14 @@
+import '../styles/About.css'
+
 import React from 'react'
+
+import { AboutMe } from '../components/AboutMe'
 
 export function About() {
   return (
-    <div>About</div>
+    <div className='about'>
+      <AboutMe />
+    </div>
   )
 }
 
