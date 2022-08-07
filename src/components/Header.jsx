@@ -1,5 +1,5 @@
 import { RocketLaunch } from 'phosphor-react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import '../styles/Header.css'
 
@@ -10,10 +10,10 @@ export function Header() {
             <RocketLaunch className='icon' size={64} />
 
             <nav className='links'>
-                <Link to={"/"}>Home</Link>
-                <Link to={"/about"}>Sobre</Link>
-                <Link to={"/projects"}>Projetos</Link>
-                <Link to={"/contact"}>Contato</Link>
+                <NavLink to={"/"}>Home</NavLink>
+                <NavLink to={"/about"}>Sobre</NavLink>
+                <NavLink to={"/projects"}>Projetos</NavLink>
+                <NavLink to={"/contact"}>Contato</NavLink>
             </nav>
         </header>
     )
