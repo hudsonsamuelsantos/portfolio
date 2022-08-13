@@ -1,21 +1,25 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Ubuntu Mono', monospace;
-  color: white;
+  font-family: 'Ubuntu Mono', monospace, sans-serif;
+  color: #fff;
 }
 
 html {
-  background-image: url("/src/assets/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #08070b;
+  box-sizing: border-box;
+  height: 100%;
+  display: block;
 }
 
 .App {
-  height: 100vh;
-  margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  min-height: 100vh;
+  position: relative;
+  z-index: 0;
 }
