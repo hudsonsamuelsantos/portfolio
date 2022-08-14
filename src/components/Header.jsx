@@ -10,9 +10,9 @@ export function Header() {
             <NavLink to={'/'} className={styles.logo}>hudson</NavLink>
 
             <nav className={styles.nav_links}>
-                <NavLink to={"/about"} className={({ isActive }) => (isActive ? styles.is_active : '')}>SOBRE</NavLink>
-                <NavLink to={"/projects"} className={({ isActive }) => (isActive ? styles.is_active : '')}>PROJETOS</NavLink>
-                <NavLink to={"/contact"} className={({ isActive }) => (isActive ? styles.is_active : '')}>CONTATO</NavLink>
+                <NavLink to={"/about"} className={({ isActive }) => (isActive ? styles.is_active : '')}>ABOUT</NavLink>
+                <NavLink to={"/projects"} className={({ isActive }) => (isActive ? styles.is_active : '')}>PROJECTS</NavLink>
+                <NavLink to={"/contact"} className={({ isActive }) => (isActive ? styles.is_active : '')}>CONTACT</NavLink>
             </nav>
         </div>
     )

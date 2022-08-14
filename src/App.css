@@ -11,9 +11,13 @@ html, body {
   margin: 0;
   padding: 0;
   background: #08070b;
-  box-sizing: border-box;
   height: 100%;
-  display: block;
+}
+
+main {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .App {

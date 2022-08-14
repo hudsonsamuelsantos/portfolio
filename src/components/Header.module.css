@@ -1,5 +1,4 @@
 .header {
-    margin-top: .8rem;
     display: flex;
     align-items: center;
     font-size: 1rem;
@@ -9,11 +8,10 @@
 
 .logo {
     text-decoration: none;
-    padding: 1rem;
+    padding: 1.4rem;
     margin-left: .8rem;
     font-weight: bolder;
     font-size: 32px;
-
     background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
     background-clip: text;
     -webkit-background-clip: text;
