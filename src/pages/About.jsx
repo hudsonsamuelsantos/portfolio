@@ -19,19 +19,19 @@ export function About() {
                 <h2 className='title'>&gt; Habilidades</h2>
 
                 <div className="skill-details">
-                    <i class="devicon-react-original colored"></i>
+                    <i className="devicon-react-original colored"></i>
                     <span>React JS</span>
                 </div>
                 <div className="skill-details">
-                    <i class="devicon-javascript-plain colored"></i>
+                    <i className="devicon-javascript-plain colored"></i>
                     <span>JavaScript ES6</span>
                 </div>
                 <div className="skill-details">
-                    <i class="devicon-css3-plain colored"></i>
+                    <i className="devicon-css3-plain colored"></i>
                     <span>CSS</span>
                 </div>
                 <div className="skill-details">
-                    <i class="devicon-html5-plain colored"></i>
+                    <i className="devicon-html5-plain colored"></i>
                     <span>HTML</span>
                 </div>
             </div>
