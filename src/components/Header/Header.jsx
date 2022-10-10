@@ -6,7 +6,7 @@ export function Header() {
 
     return (
         <div className={styles.header}>
-            
+
             <NavLink to={'/'} className={styles.logo}>hudson</NavLink>
 
             <nav className={styles.nav_links}>
