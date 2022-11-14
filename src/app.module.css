@@ -9,3 +9,10 @@
     width: 1280px;
     height: 100%;
 }
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 204px;
+    padding-top: 40px;
+}
