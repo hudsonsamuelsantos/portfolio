@@ -24,3 +24,9 @@
     padding-right: 204px;
     margin-top: 40px;
 }
+
+.arm {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
