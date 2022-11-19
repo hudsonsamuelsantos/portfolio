@@ -1,6 +1,7 @@
 import styles from "./app.module.css"
 
 import { Nav } from "./components/nav"
+import { Presentation } from "./components/presentation"
 
 function App() {
   return (
@@ -11,6 +12,10 @@ function App() {
             <Nav />
           </nav>
         </header>
+
+        <main>
+          <Presentation />
+        </main>
       </div>
     </div>
   )

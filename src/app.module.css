@@ -5,8 +5,16 @@
     height: 100vh;
 }
 
+.app main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 42px;
+}
+
 .container {
-    width: 1280px;
+    width: 80rem;
     height: 100%;
 }
 
@@ -14,5 +22,5 @@
     display: flex;
     justify-content: flex-end;
     padding-right: 204px;
-    padding-top: 40px;
+    margin-top: 40px;
 }
