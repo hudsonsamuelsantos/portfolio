@@ -1,9 +1,15 @@
 import styles from "./presentation.module.css"
 
+import { useState } from "react"
+
 import linkedinIcon from "../assets/linkedin.png"
 import githubIcon from "../assets/github.png"
+import clipIcon from "../assets/clip.png"
+import clipWhiteIcon from "../assets/clip-white.png"
 
 export function Presentation() {
+    const [btnHover, setBtnHover] = useState<boolean>(false)
+
     return (
         <div className={styles.presentation}>
             <h1 className={styles.name}>Hudson Santos</h1>
@@ -20,6 +26,17 @@ export function Presentation() {
                         <img src={githubIcon} alt="GitHub Icon" />
                     </a>
                 </div>
+
+                <a
+                    href=""
+                    className={styles.button}
+                    onMouseEnter={() => setBtnHover(true)}
+                    onMouseLeave={() => setBtnHover(false)}
+                >
+                    <img src={!btnHover ? clipIcon : clipWhiteIcon} alt="Clip Icon" />
+
+                    <span>Download CV</span>
+                </a>
             </div>
         </div>
     )
