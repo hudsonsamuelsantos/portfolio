@@ -36,3 +36,12 @@
 .bio span {
     color: #BF7506;
 }
+
+.links {
+    margin-top: 32px;
+}
+
+.social {
+    display: flex;
+    gap: 24px;
+}
