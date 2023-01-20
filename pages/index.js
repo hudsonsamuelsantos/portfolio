@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
 
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-        <section className="min-h-screen">
+        <section className="min-h-screen mb-20 ">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-burtons text-xl">hudson santos</h1>
 
@@ -43,7 +43,7 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="text-center p-10 py-10">
+          <div className="text-center p-10 py-10 flex flex-col items-center">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Hudson Santos
             </h2>
@@ -62,9 +62,11 @@ export default function Home() {
               <AiFillLinkedin />
             </div>
 
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={hudson} layout="fill" objectFit="cover" />
-            </div>
+
+          </div>
+
+          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96 flex flex-col items-center">
+            <Image src={hudson} layout="fill" objectFit="cover" />
           </div>
         </section>
 
