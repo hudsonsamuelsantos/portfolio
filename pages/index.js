@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import {
   AiFillLinkedin,
-  AiFillGithub
+  AiFillGithub,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import Image from "next/image";
 import hudson from "../public/hudson.png";
+import code from "../public/code.png";
+import design from "../public/design.png";
+import consulting from "../public/consulting.png";
 
 export default function Home() {
   return (
@@ -50,7 +53,7 @@ export default function Home() {
             </h3>
 
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Programador focado em desenvolver aplicações web modernas com as tecnologias mais demandadas do mercado. Arraste para baixo e conheça um pouco mais!
+              Programador focado em desenvolver aplicações web modernas. Arraste para baixo e conheça um pouco mais!
             </p>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -62,6 +65,26 @@ export default function Home() {
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={hudson} layout="fill" objectFit="cover" />
             </div>
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <h3 className="text-3xl py-1 dark:text-white ">Sobre mim</h3>
+
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+              Desde bem cedo, sempre tive paixão por tecnologias, sempre tive curiosidade de saber como elas funcionavam, e aprender como eram feitas.
+            </p>
+
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+              Embora tenha passado por áreas e experiências bem distintas na minha trajetória profissional, como por exemplo a área de Vendas, a área Industrial, e por 4 anos na área de Construção Civil,
+              <span className="text-teal-500"> desde 2021 venho me desenvolvendo como programador</span>, e me aprimorando no Desenvolvimento Web, com o objetivo de realizar uma transição para esse área.
+            </p>
+
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+              O Desenvolvimento Web une várias coisas que me chamam muita atenção e que realmente gosto, como o uso da criatividade e da inovação para
+              <span className="text-teal-500"> resolver problemas reais por meio da tecnologia.</span>
+            </p>
           </div>
         </section>
       </main>
