@@ -86,6 +86,79 @@ export default function Home() {
               <span className="text-teal-500"> resolver problemas reais por meio da tecnologia.</span>
             </p>
           </div>
+
+          <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 flex flex-col items-center" >
+              <Image src={design} width={100} height={100} />
+
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Front-End
+              </h3>
+
+              <p className="py-2">
+                Desenvolvendo interfaces modernas, responsivas, e funcionais para apps e websites.
+              </p>
+
+              <h4 className="py-4 text-teal-600">Algumas ferramentas que eu uso</h4>
+
+              <p className="text-gray-800 py-1">React.js</p>
+
+              <p className="text-gray-800 py-1">Next.js</p>
+
+              <p className="text-gray-800 py-1">Tailwind CSS</p>
+
+              <p className="text-gray-800 py-1">Consumo de APIs</p>
+
+              <p className="text-gray-800 py-1">Figma</p>
+            </div>
+
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 flex flex-col items-center">
+              <Image src={code} width={100} height={100} />
+
+              <h3 className="text-lg font-medium pt-8 pb-2 ">
+                Back-End
+              </h3>
+
+              <p className="py-2">
+                Desenvolvendo aplicações e APIs do lado do servidor, e integrando com bancos de dados.
+              </p>
+
+              <h4 className="py-4 text-teal-600">Algumas ferramentas que eu uso</h4>
+
+              <p className="text-gray-800 py-1">Node.js</p>
+
+              <p className="text-gray-800 py-1">Express</p>
+
+              <p className="text-gray-800 py-1">MySQL</p>
+
+              <p className="text-gray-800 py-1">MongoDB</p>
+
+              <p className="text-gray-800 py-1">GraphQL</p>
+            </div>
+
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 flex flex-col items-center">
+
+              <Image src={consulting} width={100} height={100} />
+
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Outras Skills</h3>
+
+              <p className="py-2">
+                Buscando usar como programador todas soft skills que pude adquirir na minha trajetória profissional.
+              </p>
+
+              <h4 className="py-4 text-teal-600">Algumas das minhas competências</h4>
+
+              <p className="text-gray-800 py-1">Experiência de trabalho em equipe</p>
+
+              <p className="text-gray-800 py-1">Resolução de problemas</p>
+
+              <p className="text-gray-800 py-1">Capacidade de adaptação</p>
+
+              <p className="text-gray-800 py-1">Gestão de tempo</p>
+
+              <p className="text-gray-800 py-1">Confiabilidade</p>
+            </div>
+          </div>
         </section>
       </main>
     </>
