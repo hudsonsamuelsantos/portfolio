@@ -1,5 +1,11 @@
 import Head from 'next/head'
+import {
+  AiFillLinkedin,
+  AiFillGithub
+} from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import Image from "next/image";
+import hudson from "../public/hudson.png";
 
 export default function Home() {
   return (
@@ -33,6 +39,30 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+
+          <div className="text-center p-10 py-10">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+              Hudson Santos
+            </h2>
+
+            <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
+              Desenvolvedor Front-End
+            </h3>
+
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+              Programador focado em desenvolver aplicações web modernas com as tecnologias mais demandadas do mercado. Arraste para baixo e conheça um pouco mais!
+            </p>
+
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+              <AiFillGithub />
+
+              <AiFillLinkedin />
+            </div>
+
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+              <Image src={hudson} layout="fill" objectFit="cover" />
+            </div>
+          </div>
         </section>
       </main>
     </>
