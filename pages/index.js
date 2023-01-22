@@ -9,6 +9,16 @@ import hudson from "../public/hudson.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
+import web1 from "../public/easy-money-control.png";
+import web2 from "../public/orangenotes.png";
+import web3 from "../public/my-calculator.png";
+import web4 from "../public/easycode.png";
+import web5 from "../public/lab-design-system.png";
+import web6 from "../public/react-f1.png";
+import web7 from "../public/todo.png";
+import web8 from "../public/crud-cadastro.png";
+import web9 from "../public/cadastro-cep.png";
+import web10 from "../public/conversor.png";
 
 export default function Home() {
   return (
@@ -159,6 +169,117 @@ export default function Home() {
               <p className="text-gray-800 py-1">Gestão de tempo</p>
 
               <p className="text-gray-800 py-1">Confiabilidade</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-10">
+          <div>
+            <h3 className="text-3xl py-1 dark:text-white ">Portfólio</h3>
+
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+              Desde de que comecei minha jornada como desenvolvedor sempre busquei criar
+              <span className="text-teal-500"> meus projetos...</span>
+            </p>
+
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+              Veja abaixo alguns dos meus trabalhos!
+            </p>
+          </div>
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1" >
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web1}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web2}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web3}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web4}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web5}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web6}
+              />
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web7}
+              />
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web8}
+              />
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web9}
+              />
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web10}
+              />
             </div>
           </div>
         </section>
