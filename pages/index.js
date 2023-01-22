@@ -2,6 +2,8 @@ import Head from 'next/head'
 import {
   AiFillLinkedin,
   AiFillGithub,
+  AiFillPhone,
+  AiFillMail
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import Image from "next/image";
@@ -71,12 +73,22 @@ export default function Home() {
             </p>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillGithub />
+              <a href="https://github.com/hudsonsamuelsantos" target="_blank">
+                <AiFillGithub />
+              </a>
 
-              <AiFillLinkedin />
+              <a href="https://www.linkedin.com/in/hudsonsamuelsantos/" target="_blank">
+                <AiFillLinkedin />
+              </a>
+
+              <a href="mailto:hudsnss@gmail.com" target="_blank">
+                <AiFillMail />
+              </a>
+
+              <a href="tel:+55031995053234">
+                <AiFillPhone />
+              </a>
             </div>
-
-
           </div>
 
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96 flex flex-col items-center">
