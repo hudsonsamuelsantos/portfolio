@@ -213,6 +213,35 @@ export default function Home() {
                 layout="responsive"
                 src={web1}
               />
+
+              <h4 className="text-lg pt-4 leading-8 text-gray-800 dark:text-gray-200">
+                Easy Money Control $
+              </h4>
+
+              <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200">
+                Um app de controle financeiro, para cadastrar e excluir transações, e ver o saldo de entrada e saída. Desenvolvido com
+                <span className="text-teal-500"> Javascript, HTML5, e CSS3.</span>
+              </p>
+
+              <div className='flex justify-between'>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="https://hudsonsamuelsantos.github.io/easy-money-control"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar o projeto
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/hudsonsamuelsantos/easy-money-control"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver o código
+                </a>
+              </div>
             </div>
 
             <div className="basis-1/3 flex-1">
@@ -223,6 +252,35 @@ export default function Home() {
                 layout="responsive"
                 src={web2}
               />
+
+              <h4 className="text-lg pt-4 leading-8 text-gray-800 dark:text-gray-200">
+                OrangeNotes
+              </h4>
+
+              <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200">
+                Um app para guardar anotações de forma organizada e fácil de achar, além de fazer progresso subindo em níveis de gameficação. Desenvolvido com
+                <span className="text-teal-500"> React.js, Firebase, e CSS Modules.</span>
+              </p>
+
+              <div className='flex justify-between'>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="https://orangenotes.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar o projeto
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/hudsonsamuelsantos/orange-notes"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver o código
+                </a>
+              </div>
             </div>
 
             <div className="basis-1/3 flex-1">
@@ -233,6 +291,36 @@ export default function Home() {
                 layout="responsive"
                 src={web3}
               />
+
+              <h4 className="text-lg pt-4 leading-8 text-gray-800 dark:text-gray-200">
+                my.Calculator
+              </h4>
+
+              <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200">
+                Uma calculadora construída com base no design da calculadora do macOS. <br />
+                Desenvolvida com
+                <span className="text-teal-500"> React.js.</span>
+              </p>
+
+              <div className='flex justify-between'>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="https://hudsonsamuelsantos.github.io/my-calculator-react/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar o projeto
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/hudsonsamuelsantos/my-calculator-react"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver o código
+                </a>
+              </div>
             </div>
 
             <div className="basis-1/3 flex-1">
@@ -243,6 +331,36 @@ export default function Home() {
                 layout="responsive"
                 src={web4}
               />
+
+              <h4 className="text-lg pt-4 leading-8 text-gray-800 dark:text-gray-200">
+                EasyCode Landing Page
+              </h4>
+
+              <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200">
+                Uma landing page responsiva apresentando um app de educação em tecnologia! <br />
+                Desenvolvida com
+                <span className="text-teal-500"> Javascript, HTML5, e CSS3.</span>
+              </p>
+
+              <div className='flex justify-between'>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="https://hudsonsamuelsantos.github.io/easyCode---Landing-Page/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar o projeto
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/hudsonsamuelsantos/easyCode---Landing-Page"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver o código
+                </a>
+              </div>
             </div>
 
             <div className="basis-1/3 flex-1">
@@ -253,6 +371,35 @@ export default function Home() {
                 layout="responsive"
                 src={web5}
               />
+
+              <h4 className="text-lg pt-4 leading-8 text-gray-800 dark:text-gray-200">
+                Lab Design System
+              </h4>
+
+              <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200">
+                Um design system prototipado, documentado, e aplicado ao desenvolvimento de uma tela de login. As ferramentas utilizadas foram
+                <span className="text-teal-500"> Figma, Storybook, React.js, Vite, e Tailwind CSS.</span>
+              </p>
+
+              <div className='flex justify-between'>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="https://lab-design-system-rho.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar o projeto
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/hudsonsamuelsantos/lab-design-system"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver o código
+                </a>
+              </div>
             </div>
 
             <div className="basis-1/3 flex-1">
@@ -263,6 +410,35 @@ export default function Home() {
                 layout="responsive"
                 src={web6}
               />
+
+              <h4 className="text-lg pt-4 leading-8 text-gray-800 dark:text-gray-200">
+                React F1
+              </h4>
+
+              <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200">
+                Um website construído que apresenta o cronograma e a classificação da Fórmula 1! O projeto conta com documentação do front-end! Foi utilizado
+                <span className="text-teal-500"> Storybook, React.js, Vite, e CSS Modules.</span>
+              </p>
+
+              <div className='flex justify-between'>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="http://react-f1.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar o projeto
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/hudsonsamuelsantos/react-f1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver o código
+                </a>
+              </div>
             </div>
 
             <div className="basis-1/3 flex-1">
@@ -273,6 +449,35 @@ export default function Home() {
                 layout="responsive"
                 src={web7}
               />
+
+              <h4 className="text-lg pt-4 leading-8 text-gray-800 dark:text-gray-200">
+                React + TS Todo
+              </h4>
+
+              <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200">
+                Um app de lista de tarefas, onde é possível criar, visualizar, editar, e excluir tarefas. Desenvolvido com
+                <span className="text-teal-500"> TypeScript, React.js, e Bootstrap Icons.</span>
+              </p>
+
+              <div className='flex justify-between'>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="http://todo-typescript-react.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar o projeto
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/hudsonsamuelsantos/todo-typescript-react"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver o código
+                </a>
+              </div>
             </div>
 
             <div className="basis-1/3 flex-1">
@@ -283,6 +488,36 @@ export default function Home() {
                 layout="responsive"
                 src={web8}
               />
+
+              <h4 className="text-lg pt-4 leading-8 text-gray-800 dark:text-gray-200">
+                Sistema de Cadastro - CRUD
+              </h4>
+
+              <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200">
+                Um CRUD para o gerenciamento de cadastro de clientes. <br />
+                Desenvolvido com
+                <span className="text-teal-500"> TypeScript, Next.js, React.js, e Tailwind CSS.</span>
+              </p>
+
+              <div className='flex justify-between'>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="https://crud-cadastro-next-typescript-tailwind.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar o projeto
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/hudsonsamuelsantos/crud-cadastro-next-typescript-tailwind"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver o código
+                </a>
+              </div>
             </div>
 
             <div className="basis-1/3 flex-1">
@@ -293,6 +528,35 @@ export default function Home() {
                 layout="responsive"
                 src={web9}
               />
+
+              <h4 className="text-lg pt-4 leading-8 text-gray-800 dark:text-gray-200">
+                Cadastro com Consumo de API
+              </h4>
+
+              <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200">
+                Uma webpage de cadastro de usuários, na qual os campos são preenchidos automaticamente via API quando o usuário informa o seu CEP. Desenvolvido com
+                <span className="text-teal-500"> JavaScript, HTML5, e CSS3.</span>
+              </p>
+
+              <div className='flex justify-between'>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="https://hudsonsamuelsantos.github.io/cadastro-cep-api/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar o projeto
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/hudsonsamuelsantos/cadastro-cep-api"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver o código
+                </a>
+              </div>
             </div>
 
             <div className="basis-1/3 flex-1">
@@ -303,6 +567,35 @@ export default function Home() {
                 layout="responsive"
                 src={web10}
               />
+
+              <h4 className="text-lg pt-4 leading-8 text-gray-800 dark:text-gray-200">
+                Conversor de Moeda$ com Consumo de API
+              </h4>
+
+              <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200">
+                Um app responsivo que permite a conversão de várias moedas de acordo com a cotação atual atualizada vinda da API. Desenvolvido com
+                <span className="text-teal-500"> React.js, Axios, React Toastify.</span>
+              </p>
+
+              <div className='flex justify-between'>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                  href="https://hudsonsamuelsantos.github.io/conversor-de-moedas-react/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Acessar o projeto
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/hudsonsamuelsantos/conversor-de-moedas-react"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver o código
+                </a>
+              </div>
             </div>
           </div>
         </section>
