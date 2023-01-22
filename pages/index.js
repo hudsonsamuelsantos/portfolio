@@ -74,15 +74,15 @@ export default function Home() {
             </p>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://github.com/hudsonsamuelsantos" target="_blank">
+              <a href="https://github.com/hudsonsamuelsantos" target="_blank" rel="noreferrer">
                 <AiFillGithub />
               </a>
 
-              <a href="https://www.linkedin.com/in/hudsonsamuelsantos/" target="_blank">
+              <a href="https://www.linkedin.com/in/hudsonsamuelsantos/" target="_blank" rel="noreferrer">
                 <AiFillLinkedin />
               </a>
 
-              <a href="mailto:hudsnss@gmail.com" target="_blank">
+              <a href="mailto:hudsnss@gmail.com" target="_blank" rel="noreferrer">
                 <AiFillMail />
               </a>
 
